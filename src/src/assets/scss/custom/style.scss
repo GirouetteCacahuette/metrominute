@@ -1,0 +1,57 @@
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+.logos {
+  width:200px !important;
+  padding: 60px;
+  margin: auto;
+}
+
+.selectStations {
+  padding: 0 2% 0 2%;
+  margin-bottom: 50px;
+}
+
+.stations {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.stationMetro {
+  margin: auto;
+}
+
+.buttonReturn {
+  background-color: green !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease-in;
+}
+.slide-fade-leave-active {
+  transition: all .3s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.slide-fade-leave, .slide-fade-enter-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+  /* .component-fade-leave-active avant la 2.1.8 */ {
+  opacity: 0;
+}
